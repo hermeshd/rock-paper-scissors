@@ -65,7 +65,7 @@ function playGame() {
             roundsPlayed += 1;
 
             function playRound(humanChoice, computerChoice) {
-    
+
                 switch (humanChoice) {
                     case "Rock":
                         if (computerChoice == "Rock") {
